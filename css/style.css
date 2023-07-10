@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Roboto+Mono:wght@300&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+html,
+body {
+    overflow: hidden;
+}
+
+.container {
+    background-color: rgba(240, 121, 204, 0.769);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.heading {
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    /* background-color: antiquewhite; */
+    font-size: 1.9vw;
+    letter-spacing: 5px;
+    color: rgb(61, 88, 37);
+    text-decoration: underline;
+}
+
+h1 {
+    text-shadow: 3px 1px 5px rgb(255, 255, 255);
+
+}
+
+.bulb-con {
+    /* background-color: blue; */
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bulb {
+    width: 60%;
+}
+
+.blb-light {
+    width: 35%;
+    position: absolute;
+    transform: translateY(-32%);
+    display: none;
+    transition: 1s;
+
+}
+
+.btn-con {
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+button {
+    margin: 12px;
+    padding: 12px 40px;
+    font-size: larger;
+    font-weight: 900;
+    background-color: rgb(77, 188, 77);
+    border: 1px solid black;
+    outline: none;
+    border-radius: 7px;
+    transition: .5s;
+}
+
+button.btn3 {
+    margin: 12px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: larger;
+    font-weight: 900;
+    background-color: rgb(249, 249, 249);
+    border: 1px solid rgb(26, 202, 17);
+    outline: none;
+
+}
+
+button.btn3:hover {
+    background-color: rgb(70, 25, 218);
+    border-radius: 50px;
+    padding: 15px 10px;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+    border-radius: 12px;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.on {
+    transform: translateY(-23%);
+    position: absolute;
+    width: 40%;
+    /* display: block; */
+    opacity: .9;
+    animation: trans .5s forwards;
+}
+
+.off {
+    transform: translateY(-23%);
+    position: absolute;
+    width: 40%;
+    display: none;
+}
+
+.onoff {
+    transform: translateY(-23%);
+    display: block;
+    opacity: .9;
+    animation: trans .5s forwards;
+
+}
+
+.color {
+    background-color: red;
+}
+
+@keyframes trans {
+    from {
+        opacity: .4;
+    }
+
+    to {
+        opacity: .9;
+        ;
+    }
+
+}

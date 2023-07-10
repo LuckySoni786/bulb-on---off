@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BULB-TURN-ON-&-OFF</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="icon" href="img/bulb2.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="bulb-con">
+            <div class="heading">
+                <h1>Bulb Turn ON/OFF</h1>
+            </div>
+            <img src="img/bulb.png" class="bulb" alt="bulb">
+            <img class="blb-light" id="glow" src="img/blb-light.png" alt="bulb">
+
+            <div class="btn-con">
+                <button type="button" onclick="bulbOn()" class="btn1">ON</button>
+                <button type="button" onclick="bulbToggle()" id="btn-3" class="btn3"><span
+                        class="text">ON</span></button>
+                <button type="button" onclick="bulbOff()" class="btn2">OFF</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

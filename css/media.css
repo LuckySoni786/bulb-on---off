@@ -1,0 +1,116 @@
+@media screen and (max-width:1023px) {
+    .btn-con {
+        justify-content: center;
+    }
+
+    button {
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+
+    #btn-3 {
+        padding: 10px 8px;
+        border-radius: 50px;
+        font-size: 15px;
+        font-weight: 900;
+        background-color: rgb(249, 249, 249);
+        border: 1px solid rgb(26, 202, 17);
+        outline: none;
+
+    }
+
+    .bulb-con {
+        justify-content: center;
+    }
+
+    .heading {
+        margin-bottom: 30%;
+        line-height: 35px;
+    }
+
+    .bulb {
+        width: 70%;
+    }
+
+    .on {
+        transform: translateY(-15%);
+    }
+
+    .onoff {
+        transform: translateY(-15%);
+    }
+
+}
+
+@media screen and (max-width:660px) {
+    .bulb {
+        width: 90%;
+    }
+
+    .heading {
+        line-height: 35px;
+        font-size: 15px;
+        margin-bottom: 10%;
+    }
+
+    .onoff {
+        transform: translateY(-25%);
+        width: 60%;
+    }
+
+    .on {
+        transform: translateY(-25%);
+        width: 60%;
+    }
+
+    .bulb-con {
+        width: 60%;
+
+    }
+}
+
+@media screen and (max-width:430px) {
+    .bulb {
+        width: 80%;
+    }
+
+    .heading {
+        line-height: 35px;
+        font-size: 15px;
+        margin-bottom: 20%;
+    }
+
+    .btn-con {
+        margin-top: 20%;
+    }
+
+    .onoff {
+        transform: translateY(-30%);
+        width: 60%;
+    }
+
+    .on {
+        transform: translateY(-30%);
+        width: 60%;
+    }
+
+    .bulb-con {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .bulb-con {
+        width: 80%;
+    }
+
+    .onoff {
+        transform: translateY(-28%);
+        width: 80%;
+    }
+
+    .on {
+        transform: translateY(-28%);
+        width: 80%;
+    }
+}
